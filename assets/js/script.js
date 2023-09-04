@@ -1,4 +1,4 @@
-DocumentFragment.addEventListener("DOMContentLoaded", function(){
+document.addEventListener("DOMContentLoaded", function(){
     let buttons = getElementsByTagName("button");
 
     for (let button of buttons){
@@ -14,7 +14,8 @@ DocumentFragment.addEventListener("DOMContentLoaded", function(){
 })
 
 function runGame() {
-
+    let num1 = Math.floor(Math.random() * 25) + 1;
+    let num2 = Math.floor(Math.random() * 25) + 1;
 }
 
 function checkAnswer() {
